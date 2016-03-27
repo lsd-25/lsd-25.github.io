@@ -1,0 +1,136 @@
+@charset "Shift_JIS";
+
+/* 著作者　Theoria Laevatain　様　http://theoria.bnnm.net/dawn/diary.html */
+/* テオリアさんのghostスタイルを劣化コピーしました。 */
+
+/* 基本 */
+body	{
+	background:GhostWhite;
+	color:Black;
+	}
+
+/* 見出し要素 */
+h1	{
+	font-size:230%;
+	color: #00CCFF;
+	background-color: #000000;
+	}
+h2	{
+	margin:25pt 0;
+	padding:3pt 10pt 1pt 10pt;
+	border:solid DodgerBlue;
+	border-width:0 0 4pt 0;
+	font-size:150%;
+	line-height:20pt;
+	font-weight:bold;
+	color:Black;
+	background:SkyBlue;
+	}
+h3	{
+	margin:20pt 5pt;
+	padding:2pt 10pt;
+	border:solid DodgerBlue;
+	border-width:0 0 0 15pt;
+	font-size:135%;
+	line-height:20pt;
+	font-weight:bold;
+	color:Black;
+	background:LightBlue;
+	}
+h4	{
+	font-size:112%;
+	margin:15px;
+	}
+
+/* ハイパーリンク */
+a:link	{
+	padding:0pt 2pt;
+	text-decoration:underline;
+	color:Black;
+	background:LightSteelBlue;
+	}
+a:visited{
+	padding:0 2pt;
+	text-decoration:underline;
+	color:DarkBlue;
+	background:transparent;
+	}
+a:active{
+	padding:0 2pt;
+	text-decoration:line-through;
+	color:DodgerBlue;
+	background:Black;
+	}
+a:hover{
+	padding:0 2pt;
+	color:DodgerBlue;
+	background:Black;
+	}
+a img	{
+	border:none;
+	}
+
+/* ブロック要素の基本 */
+p	{
+	font-size: 100%;
+	font-weight: normal;
+	line-height: 125%;
+	text-indent: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	word-break: break-all;
+	line-break: strict;
+	}
+p.s	{
+	text-indent: 0pt;
+	}
+
+/* 強調 */
+em	{
+	color: #EE0000;
+	font-weight: bold;
+	font-style: normal;
+	margin: 0pt 3pt;
+	padding: 1pt 2pt 0pt;
+	background: Azure;
+	}
+strong	{
+	color: #EE0000;
+	font-weight: bold;
+	font-style: normal;
+	margin: 0pt 3pt;
+	padding: 1pt 2pt 0pt;
+	border-bottom-width: 2pt;
+	border-style: none none solid;
+	background: Azure;
+	}
+
+/* 引用 */
+q	{
+	color:#800000;
+	}
+
+/* リスト */
+li	{
+	line-height: 125%;
+	}
+
+/* 視覚的な要素 */
+span	{
+	font-size: x-small;
+	letter-spacing: -1px;
+	font-family: "ＭＳ ゴシック", Osaka－等幅 , monospace;
+	}
+div	{
+	color:Black;
+	background:Azure;
+	margin:15pt;
+	border:dashed DodgerBlue;
+	border-width:2pt;
+	}
+div#index
+	{
+	background-image: url('pic/title.jpg');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	}
