@@ -1,0 +1,40 @@
+h1{
+    color: #e6d2b4;
+    background-color: #64222b;
+}
+h1 a{
+    color: #e6d2b4;
+    text-decoration: none;
+}
+h2{
+    color: #822d34;
+}
+.item-col{
+    background-color: white;
+    font-size: 90%;
+}
+.brand{
+  padding: 10px;
+}
+.item-col{
+  padding: 10px;
+  box-sizing: border-box;
+  float: left;
+  width: 20%;
+}
+@media screen and (max-width: 768px) and (min-width: 481px){
+  .item-col{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 480px){
+  .item-col{
+    width: 100%;
+  }
+}
+hr{
+  clear:both;
+}
+tr{
+  vertical-align: top;
+}
