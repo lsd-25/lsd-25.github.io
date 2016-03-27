@@ -1,0 +1,191 @@
+@charset "Shift_JIS";
+
+/* 基本 */
+body	{
+	background-color: #211249;
+	color:#ffffff;
+	}
+
+/* ハイパーリンク */
+a:link	{
+	color: #c8dcff;
+	font-weight:bold;
+	}
+a:hover	{
+	text-decoration:line-through;
+	color: #FF0000;
+	}
+a:visited{
+	color: #996799;
+	}
+a:active{
+	color: #336600;
+	text-decoration: blink;
+	}
+
+div.index a:link{
+	color: #ffff00;
+	}
+div.index a:hover{
+	color: #ff0000;
+	text-decoration: line-through;
+	}
+div.index a:visited{
+	color: #ffffff;
+	text-decoration: underline;
+	}
+div.index a:active{
+	color: #336600;
+	text-decoration: blink;
+	}
+
+/* 見出し要素 */
+h1.index{
+	color:#FF0000;
+	}
+h1#system{
+	color:#FFFFFF;
+	font-size:110%;
+	}
+h1#char_list{
+	font-size:110%;
+	}
+h2	{
+	margin:20pt 0pt;
+	padding:4pt 10pt 3pt 2em;
+	font-size:130%;
+	line-height:20pt;
+	font-weight:bold;
+	background:#ff0000;
+	background-image:url(lsd.png);
+	background-repeat: no-repeat;
+	background-position: left center; 
+	}
+h3	{
+	color:#b4b400;
+	padding:0.5em 0 0 0;
+	border-top: 3px dotted #607326;
+	font-size:110%;
+	text-indent: 1em;
+	}
+
+/* ブロック要素の基本 */
+p.s	{
+	font-size:50%;
+	}
+p.index	{
+	font-size:90%;
+	color:#C0C0C0;
+	}
+p.index2{
+	font-size:90%;
+	color:#C0C0C0;
+	font-weight: bolder;
+	}
+p.l	{
+	margin-left: 25px;
+	text-align: left;
+	}
+pre	{
+	text-align: left;
+	}
+
+/* リスト要素 */
+dt	{
+	padding:0.5em 0 0 0;
+	border-top:1px dashed #ffffff;
+	}
+dl.faq dt,dl.faq dd{
+	line-height: 125%;
+	margin-top: 1em;
+	border: none;
+	}
+ul.index li{
+	font-size: 150%;
+	color: #ffffff;
+	list-style-type: none;
+	}
+li	{
+	color: #ffffff;
+	list-style-position: outside;
+	list-style-image: url('torii.gif');
+	}
+ul.tyou li	{
+	color: #ffffff;
+	list-style-position: outside;
+	list-style-image: url('tyou.gif');
+	}
+
+/* 強調 */
+strong	{
+	color: #d7d75c;
+	font-weight: bold;
+	font-style: normal;
+	font-size:105%;
+	}
+em	{
+	color: #EE0000;
+	font-weight: bold;
+	font-style: normal;
+	}
+/* 視覚的な要素 */
+.red	{
+	color: #FF0000;
+	}
+.black	{
+	color:#000000;
+	}
+div.index{
+	float: left;
+	padding:5px;
+	width: 33%;
+	}
+div.b	{
+	padding:10px;
+	border-width: 20px;
+	border-color: #ff0094;
+	border-style: ridge;
+	}
+/* bodyいろいろ */
+body.c	{
+	text-align:center;
+	background-image: url('character/top.jpg');
+	}
+body.c div	{
+	background-color: #211249;
+	width: 80%;
+	}
+body.jiin	{
+	background-image: url('event/jiin.jpg');
+	background-repeat: repeat-y;
+	background-position: right top;
+	}
+body.sizenkai	{
+	background-image: url('event/sizenkai.jpg');
+	background-repeat: repeat-y;
+	background-position: right top;
+	}
+body.meigetsusou	{
+	background-image: url('event/meigetsusou.jpg');
+	background-repeat: repeat-y;
+	background-position: right top;
+	}
+body.violence	{
+	background-image: url('event/violence.jpg');
+	background-repeat: repeat-y;
+	background-position: right top;
+	}
+body.happytown	{
+	background-image: url('event/happytown.jpg');
+	background-repeat: repeat-y;
+	background-position: right top;
+	}
+body.kyoto	{
+	background-image: url('event/kyoto.jpg');
+	background-repeat: repeat-y;
+	background-position: right top;
+	}
+/* 表 */
+table	{
+	table-layout: fixed;
+	}
