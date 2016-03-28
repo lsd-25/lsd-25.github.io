@@ -1,57 +1,57 @@
-LSD��BGM��MIDI�ɂ��Đ؂�o�����@
+LSDのBGMをMIDIにして切り出す方法
 
 *********************************************************
-�@�K�v�ȃ��m
-�ELSD
-�Epgconv(http://www.tukinami.com/����_�E�����[�h)
-�EDLS�����[�h�o������(�����Ă��悢)
+　必要なモノ
+・LSD
+・pgconv(http://www.tukinami.com/からダウンロード)
+・DLSをロード出来るやつ(無くてもよい)
 *********************************************************
 
-1.PC��CD-ROM�h���C�u��LSD�̃f�B�X�N��}������pgconv���N���B
+1.PCのCD-ROMドライブにLSDのディスクを挿入してpgconvを起動。
 
-2.�u�t�H���_�v�{�^���������A��ɒ��o��������(MIDI)��ۑ�����t�H���_��I��ł����B
+2.「フォルダ」ボタンを押し、先に抽出した音源(MIDI)を保存するフォルダを選んでおく。
 
-3.DLS�̎����ǂ�������Ȃ��l��3�ԁ`5�Ԃ��΂���6�ԂցB
+3.DLSの事が良く分からない人は3番〜5番を飛ばして6番へ。
 
- �u�A�i���C�Y�v�{�^����������CD-ROM��CDI��SND�t�H���_�֍s���A
-�@AMBIENT.VB��AMBIENT.VH�̓�𓯎��ɑI�����ĊJ���B
+ 「アナライズ」ボタンを押してCD-ROM→CDI→SNDフォルダへ行き、
+　AMBIENT.VBとAMBIENT.VHの二つを同時に選択して開く。
 
-4.�u�R���o�[�g�v�{�^���������AAMBIENT.clg���J��
-�@���������2�ԖڂőI�񂾃t�H���_��AMBIENT_000.dls���o���Ă���͂��B
+4.「コンバート」ボタンを押し、AMBIENT.clgを開く
+　そうすると2番目で選んだフォルダにAMBIENT_000.dlsが出来ているはず。
 
-5.�����悤�ɍ��x�͈Ⴄ���(CARTOON�Ƃ�)��3��4�Ԃ��J��Ԃ��B
+5.同じように今度は違うやつ(CARTOONとか)で3番4番を繰り返す。
 
-�@AMBIENT
-�@CARTOON
-�@ELECTRO
-�@ETHNOVA
-�@HUMAN
-�@LOVELY
-�@SE
-�@STANDERD
+　AMBIENT
+　CARTOON
+　ELECTRO
+　ETHNOVA
+　HUMAN
+　LOVELY
+　SE
+　STANDERD
 
-�@�ȏ��dls����ꂽ�玟�̎菇��
+　以上のdlsを作れたら次の手順へ
 
-6.�u�A�i���C�Y�v�{�^����������STG00�t�H���_�֍s���ABGA.SEQ��I�ԁB
+6.「アナライズ」ボタンを押してSTG00フォルダへ行き、BGA.SEQを選ぶ。
 
-7.�u�R���o�[�g�v�{�^���������ABGA.clg���J���B
-�@���������2�ԖڂőI�񂾃t�H���_��BGA_000.mid���o���Ă���͂��B
+7.「コンバート」ボタンを押し、BGA.clgを開く。
+　そうすると2番目で選んだフォルダにBGA_000.midが出来ているはず。
 
-8.�����悤�ɍ��x�͈Ⴄ���(BGB�Ƃ�)��6��7�Ԃ��J��Ԃ��B
+8.同じように今度は違うやつ(BGBとか)で6番7番を繰り返す。
 
-9.�o����midi��2�ԖڂőI�񂾃t�H���_��stg00�t�H���_������ĂԂ����ށB
-�@(�t�@�C�����̏d�������Ȃ̂ł���Ă���)
+9.出来たmidiを2番目で選んだフォルダにstg00フォルダを作ってぶち込む。
+　(ファイル名の重複が厄介なのでやっておく)
 
-10.�����悤��STG01�ȍ~��6�ԁ`9�Ԃ��J��Ԃ��B
-�@(������9�Ԃ̃t�H���_����stg01�Ƃ��ɂ��č�����Ȃ��悤�ɂ��Ă�������)
+10.同じようにSTG01以降も6番〜9番を繰り返す。
+　(ちゃんと9番のフォルダ名をstg01とかにして混ざらないようにしておくこと)
 
-�@�����t�@�C��
+　無音ファイル
 
-�ESTG00 BGD.SEQ
-�ESTG03 BGD.SEQ
-�ESTG05 BGC.SEQ
+・STG00 BGD.SEQ
+・STG03 BGD.SEQ
+・STG05 BGC.SEQ
 
-����ŏo���オ��R(�L�[�M)�m
+これで出来上がりヽ(´ー｀)ノ
 
-midi��mp3�ɂ���T�[�r�X�𗘗p�����CD�ɏĂ������o�����
+midiをmp3にするサービスを利用すればCDに焼く事も出来るよ
 http://www.fire-candy.com/xoops/modules/news/

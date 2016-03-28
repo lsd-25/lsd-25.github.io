@@ -1,12 +1,12 @@
-@charset "Shift_JIS";
+@charset "UTF-8";
 
-/* Šî–{ */
+/* åŸºæœ¬ */
 body	{
 	background-color: #211249;
 	color:#ffffff;
 	}
 
-/* ƒnƒCƒp[ƒŠƒ“ƒN */
+/* ãƒã‚¤ãƒ‘ãƒ¼ãƒªãƒ³ã‚¯ */
 a:link	{
 	color: #c8dcff;
 	font-weight:bold;
@@ -39,7 +39,7 @@ div.index a:active{
 	text-decoration: blink;
 	}
 
-/* Œ©o‚µ—v‘f */
+/* è¦‹å‡ºã—è¦ç´  */
 h1.index{
 	color:#FF0000;
 	}
@@ -69,7 +69,7 @@ h3	{
 	text-indent: 1em;
 	}
 
-/* ƒuƒƒbƒN—v‘f‚ÌŠî–{ */
+/* ãƒ–ãƒ­ãƒƒã‚¯è¦ç´ ã®åŸºæœ¬ */
 p.s	{
 	font-size:50%;
 	}
@@ -90,7 +90,7 @@ pre	{
 	text-align: left;
 	}
 
-/* ƒŠƒXƒg—v‘f */
+/* ãƒªã‚¹ãƒˆè¦ç´  */
 dt	{
 	padding:0.5em 0 0 0;
 	border-top:1px dashed #ffffff;
@@ -116,7 +116,7 @@ ul.tyou li	{
 	list-style-image: url('tyou.gif');
 	}
 
-/* ‹­’² */
+/* å¼·èª¿ */
 strong	{
 	color: #d7d75c;
 	font-weight: bold;
@@ -128,7 +128,7 @@ em	{
 	font-weight: bold;
 	font-style: normal;
 	}
-/* Ž‹Šo“I‚È—v‘f */
+/* è¦–è¦šçš„ãªè¦ç´  */
 .red	{
 	color: #FF0000;
 	}
@@ -146,7 +146,7 @@ div.b	{
 	border-color: #ff0094;
 	border-style: ridge;
 	}
-/* body‚¢‚ë‚¢‚ë */
+/* bodyã„ã‚ã„ã‚ */
 body.c	{
 	text-align:center;
 	background-image: url('character/top.jpg');
@@ -185,7 +185,7 @@ body.kyoto	{
 	background-repeat: repeat-y;
 	background-position: right top;
 	}
-/* •\ */
+/* è¡¨ */
 table	{
 	table-layout: fixed;
 	}

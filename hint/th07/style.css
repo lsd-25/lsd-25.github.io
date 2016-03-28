@@ -1,15 +1,15 @@
-@charset "Shift_JIS";
+@charset "UTF-8";
 
-/* ’˜ìÒ@Theoria Laevatain@—l@http://theoria.bnnm.net/dawn/diary.html */
-/* ƒeƒIƒŠƒA‚³‚ñ‚ÌghostƒXƒ^ƒCƒ‹‚ğ—ò‰»ƒRƒs[‚µ‚Ü‚µ‚½B */
+/* è‘—ä½œè€…ã€€Theoria Laevatainã€€æ§˜ã€€http://theoria.bnnm.net/dawn/diary.html */
+/* ãƒ†ã‚ªãƒªã‚¢ã•ã‚“ã®ghostã‚¹ã‚¿ã‚¤ãƒ«ã‚’åŠ£åŒ–ã‚³ãƒ”ãƒ¼ã—ã¾ã—ãŸã€‚ */
 
-/* Šî–{ */
+/* åŸºæœ¬ */
 body	{
 	background:GhostWhite;
 	color:Black;
 	}
 
-/* Œ©o‚µ—v‘f */
+/* è¦‹å‡ºã—è¦ç´  */
 h1	{
 	font-size:230%;
 	color: #00CCFF;
@@ -42,7 +42,7 @@ h4	{
 	margin:15px;
 	}
 
-/* ƒnƒCƒp[ƒŠƒ“ƒN */
+/* ãƒã‚¤ãƒ‘ãƒ¼ãƒªãƒ³ã‚¯ */
 a:link	{
 	padding:0pt 2pt;
 	text-decoration:underline;
@@ -70,7 +70,7 @@ a img	{
 	border:none;
 	}
 
-/* ƒuƒƒbƒN—v‘f‚ÌŠî–{ */
+/* ãƒ–ãƒ­ãƒƒã‚¯è¦ç´ ã®åŸºæœ¬ */
 p	{
 	font-size: 100%;
 	font-weight: normal;
@@ -85,7 +85,7 @@ p.s	{
 	text-indent: 0pt;
 	}
 
-/* ‹­’² */
+/* å¼·èª¿ */
 em	{
 	color: #EE0000;
 	font-weight: bold;
@@ -105,21 +105,21 @@ strong	{
 	background: Azure;
 	}
 
-/* ˆø—p */
+/* å¼•ç”¨ */
 q	{
 	color:#800000;
 	}
 
-/* ƒŠƒXƒg */
+/* ãƒªã‚¹ãƒˆ */
 li	{
 	line-height: 125%;
 	}
 
-/* ‹Šo“I‚È—v‘f */
+/* è¦–è¦šçš„ãªè¦ç´  */
 span	{
 	font-size: x-small;
 	letter-spacing: -1px;
-	font-family: "‚l‚r ƒSƒVƒbƒN", Osaka|“™• , monospace;
+	font-family: "ï¼­ï¼³ ã‚´ã‚·ãƒƒã‚¯", Osakaâˆ’ç­‰å¹… , monospace;
 	}
 div	{
 	color:Black;
