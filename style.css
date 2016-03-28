@@ -9,18 +9,17 @@ h1 a{
 h2{
     color: #822d34;
 }
-.item-col{
-    background-color: white;
-    font-size: 90%;
-}
 .brand{
   padding: 10px;
 }
 .item-col{
+  background-color: white;
+  font-size: 90%;
   padding: 10px;
   box-sizing: border-box;
   float: left;
-  width: 20%;
+  width: 18%;
+  height: 425px;
 }
 @media screen and (max-width: 768px) and (min-width: 481px){
   .item-col{
