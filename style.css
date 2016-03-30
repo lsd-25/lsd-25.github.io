@@ -37,3 +37,7 @@ hr{
 tr{
   vertical-align: top;
 }
+.left{
+  float: left;
+  width: 70%;
+}
