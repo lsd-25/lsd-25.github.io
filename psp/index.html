@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="../style.css" type="text/css">
+  <title>PSP 最強携帯ゲーム機への道 (CFW, エミュ, 改造) - レトロゲーマーの小屋</title>
+</head>
+
+<body>
+<h1>PSP 最強携帯ゲーム機への道</h1>
+<table>
+  <tr>
+    <td>
+      <h2>目次</h2>
+      <ul>
+        <li><a href="#intro">なぜPSPが最強の携帯ゲーム機なのか</a></li>
+        <li><a href="#cfw">CFW (カスタムファームウェア)</a></li>
+        <li><a href="#emulator">エミュレータ (PCエンジン/ワンダースワン/ファミコン/ゲームボーイ/ネオジオポケット/ゲームギア)</a></li>
+        <li><a href="#gba">エミュレータ (ゲームボーイアドバンス)</a></li>
+        <li><a href="#nesx9xtyl">エミュレータ (スーパーファミコン)</a></li>
+        <li><a href="#nesterj">エミュレータ (ファミコン/ディスクシステム)</a></li>
+        <li><a href="#dgen">エミュレータ (メガドライブ)</a></li>
+        <li><a href="#smsppsp">エミュレータ (セガマスターシステム/ゲームギア)</a></li>
+        <li><a href="#cps1">エミュレータ (CPS1)</a></li>
+        <li><a href="#cps2">エミュレータ (CPS2)</a></li>
+        <li><a href="#mvs">エミュレータ (MVS)</a></li>
+        <li><a href="#psx">コンバータ (PlayStation)</a></li>
+        <li><a href="#screenshot">いつでも♪でスクリーンショット撮れるプラグイン</a></li>
+        <li><a href="#cheat">チートツール</a></li>
+      </ul>
+
+      <h2><a name="intro">なぜPSPが最強の携帯ゲーム機なのか</a></h2>
+      <p><img src="psp.jpg"></p>
+      <p>最近では、ニンテンドークラシックミニやメガドライブミニなど昔のゲーム機がリニューアルされて発売されるなど、昔のゲームが注目されています。実は、PSPは携帯ゲーム機でありながら性能面ではPS1以上のスペックがあり、成熟したカスタムファームウェア (CFW) と多くのエミュレータを導入することで、スーパーファミコン、メガドライブ、PCエンジンやネオジオのゲームまで遊ぶことが出来ます。</p>
+      <p>PSP以降に発売された高性能なPlayStation Vita、Nintendo 3DSでは未だハッキングが難しく、エミュレータも満足に無い状況から見ると、まだまだカスタム性においてPSPには及びません。</p>
+      <p>このページでは、そんなPSPを最強の携帯ゲーム機にカスタムする方法を紹介します。</p>
+
+      <h2><a name="cfw">CFW (カスタムファームウェア)</a></h2>
+      <p><img src="psp_cfw1.jpg"></p>
+      <p>ファームウェアとはPSPを動かすシステムソフトウェアのことです。サードパーティー製の (SONY以外のところが作った) ファームウェアをカスタムファームウェア (CWF) と言います。ちなみに公式のものをOFW (オフィシャルファームウェア) と言います。CFWでは、OFWで制限されていることが出来るようになります。例えば、ユーザー作成のアプリケーションやチートツール、エミュレーター等が起動出来るようになったりします。ここでは、CFW6.61 PROの導入手順を説明します。</p>
+      <p>まず、PCに <a href="https://ux.getuploader.com/pspdata/download/1">6.61 PRO-C2_16-12-2014.zip</a> をダウンロードし、圧縮ファイルを解凍します。次に、USBケーブルでPSPとPCを繋ぎ、設定からPSPをUSB接続モードにします。そして解凍したフォルダー内のPSPフォルダーをコピーし、PSPのメモリースティックに貼り付けします。</p>
+      <p><img src="psp_cfw2.jpg"></p>
+
+      <h2><a name="emulator">エミュレータ (PCエンジン/ワンダースワン/ファミコン/ゲームボーイ/ネオジオポケット/ゲームギア)</a></h2>
+      <p><img src="emulator.jpg"></p>
+      <p>ここではPCエンジン/ワンダースワン/ファミコン/ゲームボーイ/ネオジオポケット/ゲームギアに対応している e[mulator] for PSP の導入を説明します。</p>
+      <p>まず<a href="http://dev-e.sakura.ne.jp/">e[mulator]公式サイト</a>からe[mulator] 0.82f for PSPをダウンロードして解凍します。</p>
+      <p>「PSP」フォルダを「e[mulator] 」にリネームして「e[mulator] 」フォルダ内に「ROMS」フォルダを作成します。※管理をしやすいようにリネームします。特にリネームしなくても認識はします。</p>
+      <p>「ROMS」フォルダ内に {PCエンジン/ワンダースワン/ファミコン/ゲームボーイ/ネオジオポケット/ゲームギア} のROMファイルをコピーします。※zipファイルのままでも起動します。</p>
+      <p>「e[mulator]」フォルダを メモリースティック の「GAME」フォルダにコピーします。</p>
+      <p>PSPを起動させ、メモリースティックから「e[mulator] for PSP 0.82f」を起動します。</p>
+      <p>メニュー画面が表示されますが、まずは遊びたいゲーム機の設定で空いてるボタンに "MENU" を割り当てると便利です。そして「ROM SELECT」から 「ROMS」フォルダを選んで遊びたいゲームを決定します。</p>
+
+      <h2><a name="gba">エミュレータ (ゲームボーイアドバンス)</a></h2>
+      <p><img src="gpspj.jpg"></p>
+      <p>ここではゲームボーイアドバンス (GBA) のエミュレータである gpSP-J の導入を説明します。gpSP-Jは無改造のPSPでも動作します。再現性が非常に高くほぼ全てのROMが動作します。メニューが日本語なので設定も分かりやすく使いやすいと思いますが、GBAのBIOSが要ります。</p>
+      <p>まず<a href="https://ux.getuploader.com/rorudo/download/9/EmuCR-gpSP-J-Signed-26710505.zip">ロルドの研究室アップローダー</a>からgpsp-jをダウンロードして解凍します。</p>
+      <p>解凍したフォルダ内にある「gpsp-J」フォルダ内にBIOSファイル (gba_bios.binという名前に変えておく）を入れます。</p>
+      <p>ROMファイルをgpSP-Jの「roms」フォルダに入れます。</p>
+      <p>gpSP-Jのフォルダをメモリースティックの「GAME」フォルダにコピーします。</p>
+      <p>PSPを起動させ、メモリースティックから「gameplaySP - 日本語版」を起動します。</p>
+
+      <h2><a name="nesx9xtyl">エミュレータ (スーパーファミコン)</a></h2>
+      <p><img src="snes9xtyl.jpg"></p>
+      <ol>
+        <li><a href="https://github.com/173210/snes9xTYL/releases">s9xTYLmecm_mod.zip</a> をダウンロードして解凍します。</li>
+        <li>解凍した後フォルダ内に「ROMS」フォルダを作ってそこにROMを入れます。</li>
+        <li>そして解凍したフォルダをコピーしてメモリースティックの「PSP」フォルダ内の「GAME」フォルダの中に入れます。</li>
+      </ol>
+
+      <h2><a name="nesterj">エミュレータ (ファミコン/ディスクシステム)</a></h2>
+      <p><img src="nesterj.jpg"></p>
+      <ol>
+        <li><a href="https://www.psx-place.com/resources/nintendo-nesterj-aoex-r3.237/">Nintendo- NesterJ AoEX r3.zip</a> をダウンロードして解凍します。</li>
+        <li>解凍した後フォルダ内にある「Roms」フォルダにROMを入れます。</li>
+        <li>そして解凍したフォルダをコピーしてメモリースティックの「PSP」フォルダ内の「GAME」フォルダの中に入れます。</li>
+      </ol>
+
+      <h2><a name="dgen">エミュレータ (メガドライブ)</a></h2>
+      <p><img src="dgen.jpg"></p>
+      <ol>
+        <li><a href="https://www.brewology.com/downloads/download.php?id=10903&mcid=1">DGEN v1.70 Slim</a> をダウンロードして解凍します。</li>
+        <li>解凍した後フォルダ内に「ROMS」フォルダを作ってそこにROMを入れます。</li>
+        <li>そして解凍したフォルダをコピーしてメモリースティックの「PSP」フォルダ内の「GAME」フォルダの中に入れます。</li>
+      </ol>
+
+      <h2><a name="smsppsp">エミュレータ (セガマスターシステム/ゲームギア)</a></h2>
+      <p><img src="smsplus.jpg"></p>
+      <ol>
+        <li><a href="http://psp.akop.org/smsplus.htm">smsplus-1.3.1-1.0.zip</a> をダウンロードして解凍します。</li>
+        <li>解凍した後フォルダ内にある「smsppsp」フォルダ内に「ROMS」フォルダを作ってそこにROMを入れます。</li>
+        <li>そして「smsppsp」フォルダをコピーしてメモリースティックの「PSP」フォルダ内の「GAME」フォルダの中に入れます。</li>
+      </ol>
+
+      <h2><a name="cps1">エミュレータ (CPS1)</a></h2>
+      <p><img src="cps1psp.jpg"></p>
+      <p>日本人のNJ氏が開発したアーケードエミュレータです。CPS1PSPはCPS1を遊ぶことができます。ほぼ全てのROMが動作するのでカプコン好きには嬉しい。もちろん日本語対応なので安心して利用できます。</p>
+      <ol>
+        <li><a href="https://wololo.net/talk/viewtopic.php?t=27733">Unofficial CAPCOM CPS1 Emulator for PSP 2.3.1 Mod Rev.5</a> をダウンロードして解凍します。</li>
+        <li>解凍した後フォルダ内にある「cps1psp」フォルダ内に「ROMS」フォルダを作ってそこにROMを入れます。</li>
+        <li>そして「cps1psp」フォルダをコピーしてメモリースティックの「PSP」フォルダ内の「GAME」フォルダの中に入れます。</li>
+      </ol>
+
+      <h2><a name="cps2">エミュレータ (CPS2)</a></h2>
+      <p><img src="cps2psp.jpg"></p>
+      <p>日本人のNJ氏が開発したアーケードエミュレータです。CPS2PSPはCPS2を遊ぶことができます。ほぼ全てのROMが動作するのでカプコン好きには嬉しい。もちろん日本語対応なので安心して利用できます。</p>
+      <ol>
+        <li><a href="https://wololo.net/talk/viewtopic.php?t=27733">Unofficial CAPCOM CPS2 Emulator for PSP 2.3.1 Mod Rev.5</a> をダウンロードして解凍します。</li>
+        <li>解凍した後フォルダ内にある「cps2psp」フォルダ内に「ROMS」フォルダを作ってそこにROMを入れます。</li>
+        <li>そして「cps2psp」フォルダをコピーしてメモリースティックの「PSP」フォルダ内の「GAME」フォルダの中に入れます。</li>
+      </ol>
+
+      <h2><a name="mvs">エミュレータ (MVS)</a></h2>
+      <p><img src="mvspsp.jpg"></p>
+      <p>SNKのアーケードゲームMVSのエミュレータです。ROM の形式はZIP形式のファイルになります。また、同時にキャッシュファイルの作成も行わないと正常に ROM を読み込みませんので必ずキャッシュファイル作成を行って下さい。</p>
+      <ol>
+        <li><a href="https://wololo.net/talk/viewtopic.php?t=27733">Unofficial NEOGEO Emulator for PSP 2.3.1 Mod Rev.5</a> をダウンロードして解凍します。</li>
+        <li>解凍した後フォルダ内にある「mvspsp」フォルダ内に「ROMS」フォルダを作ってそこに遊びたいROMを入れます。また、neogeo.zipも「ROMS」フォルダに入れます。</li>
+        <li>キャッシュファイルの作成を行います。解凍した「romcnv」フォルダ内にある「romcnv_mvs.exe」を起動させます。ネオジオのROMファイル[例：game.zip]をドラッグ・アンド・ドロップし、キャッシュファイル変換作業を開始します。完了すれば、「romcnv」フォルダ内に「cache」フォルダが作成されます。</li>
+        <li>変換完了した「cache」フォルダを「mvspsp」フォルダへコピーします。</li>
+        <li>そして「mvspsp」フォルダをコピーしてメモリースティックの「PSP」フォルダ内の「GAME」フォルダの中に入れます。</li>
+      </ol>
+
+      <h2><a name="psx">コンバータ (PlayStation)</a></h2>
+      <p><img src="psx2psp.jpg"></p>
+      <p>PS1のソフトをPSPで遊べるように変換するPSX2PSPの紹介です。</p>
+      <ol>
+        <li><a href="https://ux.getuploader.com/rorudo/download/25/PSX2PSP_v1.4.2.zip">ロルドの研究室アップローダー</a>からPSX2PSPをダウンロードして解凍します。</li>
+        <li>PSX2PSP.exeを起動します。</li>
+        <li>「clasic mode」を選択し、okを押します。</li>
+        <li>左上の「ISO/PBP file」の→の ... を押します。</li>
+        <li>そこからPS1のイメージファイルを選択(.img)(.bin) 2個以上ファイルがある場合は続けて選択</li>
+        <li>「Oulput PBP folder」の→の ... を押します。そこに変換後のフォルダが来ます。また「Icon image」はXMBでのアイコンを指定できます。アイコンは<a href="https://www24.atwiki.jp/ps1pspps3emuicons/pages/7.html">このサイト</a>にたくさんあります。</li>
+        <li>「Corvelt」を押します。変換が始まります。</li>
+        <li>「Done!」が出れば終了。</li>
+        <li>指定した所にフォルダがあります。</li>
+        <li>PSPをUSB接続します。</li>
+        <li>リムーバルディスク→PSP→GAMEに変換したフォルダをコピー</li>
+        <li>XMBから起動</li>
+      </ol>
+
+      <h2><a name="screenshot">いつでも♪でスクリーンショット撮れるプラグイン</a></h2>
+      <p>ゲームごとに保存するフォルダを分けてスクリーンショットが撮れる「RRXshot v0.4.0」の導入方法について説明します。</p>
+      <ol>
+        <li><a href="http://ux.getuploader.com/yuuki1023/download/13/prxshot-0.4.0.zip">prxshot-0.4.0.zip</a> をダウンロードして解凍します。</li>
+        <li>解凍した後、出てきた「prxshot」フォルダを「ms0(ef0):/seplugins/」に入れます。</li>
+        <li>「ms0(ef0):/seplugins/」の「vsh.txt、game.txt」に下記を追記します。</li>
+        <li>PSP-1000/2000/3000の場合 ms0:/seplugins/prxshot/prxshot.prx 1</li>
+        <li>PSP Go の場合 ef0:/seplugins/prxshot/prxshot.prx 1</li>
+        <li>♪ボタンを押してスクリーンショットを撮ります。</li>
+        <li>XMBのフォトで、スクリーンショットを確認し、タイトル別に保存されていれば成功です。</li>
+      </ol>
+
+      <h2><a name="cheat">チートツール</a></h2>
+      <p><img src="psp_cheat1.jpg"></p>
+      <p><a href="https://ux.getuploader.com/pspdata/download/3">CWCheat660ME.zip</a> をダウンロードして圧縮ファイルを解凍します。
+      解凍されたフォルダ内にある "CWCHEAT" フォルダをコピーして、メモリースティックの "seplugins" フォルダにコピーします。次にsepluginsフォルダにある "game.txt" と "pops.txt" を開き、以下のように書き込み保存します。</p>
+      <p>game.txtには ms0:/seplugins/cwcheat/cwcheat.prx</p>
+      <p>pops.txtには ms0:/seplugins/cwcheat/cwcheatpops.prx</p>
+      <p><a href="http://wikiwiki.jp/cwcheat/?CODE%C4%C9%B2%C3%CA%FD%CB%A1">CWCheat Code まとめ Wiki CODE追加方法</a> の記事を参考に CWCheat Code を作成してみましょう。ネットで CWCheat と検索すれば、設定方法がたくさんでてきます。</p>
+      <p><img src="psp_cheat2.jpg"></p>
+      <p>画像左: サイトのコード, 画像右: cheat.db</p>
+      <p>ms0:/seplugins/cwcheat/cheat.db を開きます。次に紹介するサイトで目的のコードをコピーしてcheat.dbに貼り付けていきます。</p>
+      <p>自力でのCheatの作成は難しいので以下のサイトから、Cheatを使いたいゲームを選択しCheatCodeをコピーして使用しましょう。</p>
+      <ul>
+        <li><a href="https://www21.atwiki.jp/cwcwiki/">ⒸⓌⒸheatⒸodeまとめWiki</a></li>
+        <li><a href="http://wikiwiki.jp/cwcheat/">CWCheat Code まとめ Wiki</a></li>
+      </ul>
+    </td>
+    <td>
+    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=yukinoi-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B005186H8K&linkId=da8cb8166f459ae7ee71a7153aa13e54"></iframe>
+    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=yukinoi-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B01IERDFGQ&linkId=476e99e7b99ce6a748aada16d986e08d"></iframe>
+    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=yukinoi-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B07CXTZ65X&linkId=2fcc21e3109e482a669e29f7f5450006"></iframe>
+    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=yukinoi-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B002HUWGJY&linkId=b724836e5b157c921c78e097fe1e9b72"></iframe>
+    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=yukinoi-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B000VLE0ZO&linkId=069449260ebdcc592d1cc5b9c85fb772"></iframe>
+    <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=yukinoi-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B0013ISGZE&linkId=e2014be1c33d1079ce81aaf2d4d5355f"></iframe>
+    </td>
+  </tr>
+</table>
+<hr>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 728x90 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-7340801997988847"
+     data-ad-slot="6265221815"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<hr>
+<p><a href="../index.html">&lt;&lt; レトロゲーマーの小屋トップへ戻る</a></p>
