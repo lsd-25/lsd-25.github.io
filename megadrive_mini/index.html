@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -8,75 +9,150 @@
 </head>
 
 <body>
-<h1>メガドライブミニ魔改造</h1>
-<table>
-<tr>
-<td>
-<p>実はメガドラミニって遊べるソフトを入れ替えたり、エミュレータを入れたりすることができるって知ってましたか！？</p>
-<p>最初に遊べるソフトを入れ替える方法を説明します！</p>
-<h2>メガドラソフト互換性チェック</h2>
-<p>まずは遊びたいゲームがメガドラミニに対応しているか以下の互換性リストでチェックしましょう！</p>
-<p><a href="https://megadrive-compatibility.netlify.app/">Mega Drive / Genesis Mini 互換性リスト</a></p>
-<p>ご所望のソフトが遊べるようでしたら準備するものについて説明します。</p>
-<h2>準備するもの</h2>
-<ul>
-  <li>メガドライブミニ本体</li>
-  <li>データ転送可能なmicroUSBケーブル</li>
-  <li>Windows 7以降のパソコン</li>
-  <li><a href="https://modmyclassic.com/project-lunar/">Project Lunarのソフトウェア</a></li>
-  <li>遊びたいメガドライブソフトのゲームデータ</li>
-</ul>
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=yukinoi-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B01MUJOA5E&linkId=5defab625bc443f76ca8fd1b9d01539b"></iframe>
-<p>「データ転送可能なmicroUSBケーブル」とわざわざ書いたのは、メガドライブミニ付属のmicroUSBケーブルは充電専用でデータ転送は出来ないからです。持ってない方は品質に定評のあるAnkerの上記のUSBケーブルをおすすめします。</p>
-<h2>Project Lunarの入れ方</h2>
-<p>STEP 0: <a href="https://github.com/Project-Lunar/Project-Lunar-Issue-Tracker/releases">Project Lunar配布ページ</a>に行って「ProjectLunar-installer.zip」をダウンロードします。そしてzipファイルを解凍して「ProjectLunar-installer.exe」を実行してパソコンにインストールします。</p>
-<p><img src="https://modmyclassic.com/wp-content/uploads/2019/12/ProjectLunar_tut1.png" width="50%"></p>
-<p>STEP 1: 続いてメガドラミニの操作です。まずUSB電源ケーブルを抜きます。</p>
-<p><img src="https://modmyclassic.com/wp-content/uploads/2019/12/ProjectLunar_tut2.png" width="50%"></p>
-<p>STEP2: 電源スイッチをONのところにスライドさせます。</p>
-<p><img src="https://modmyclassic.com/wp-content/uploads/2019/12/ProjectLunar_tut3.png" width="50%"></p>
-<p>STEP3: リセットボタンを押し続けます。</p>
-<p><img src="https://modmyclassic.com/wp-content/uploads/2019/12/ProjectLunar_tut4.png" width="50%"></p>
-<p>STEP4: そのままリセットボタンを押しながらパソコンに繋げたmicroUSBケーブルをメガドライブミニに繋げます。</p>
-<p><img src="https://modmyclassic.com/wp-content/uploads/2019/12/ProjectLunar_tut5.png" width="50%"></p>
-<p>STEP5: LEDが点滅したらリセットボタンを離して大丈夫です。</p>
-<p>STEP6: インストールが始まってインストール画面が表示されます。インストールが完了するまで10分くらいかかります。</p>
+  <h1>メガドライブミニ魔改造</h1>
+  <table>
+    <tr class="two-cols">
+      <td>
 
-<h2>Project Lunarの使い方</h2>
-<p>パソコンとメガドラミニをmicroUSBケーブルで繋ぎます。</p>
-<p><img src="https://modmyclassic.com/wp-content/uploads/2019/12/1.png" width="50%"></p>
-<p>パソコンの「Project Lunar.exe」を起動して「Open Game Manager」をクリックします。</p>
-<p>数秒待つとパソコンがメガドラミニを認識します。</p>
-<p><img src="https://modmyclassic.com/wp-content/uploads/2019/12/2.png" width="50%"></p>
-<p>新しいゲームを入れるには「Add new game」をクリックします。そして追加したいゲームのROMファイル (拡張子が".bin", ".gen", ".md"のもの) を選択します。</p>
-<p><img src="https://modmyclassic.com/wp-content/uploads/2019/12/3.png" width="50%"></p>
-<p>選択すると追加するゲームのウィンドウが出ます。</p>
-<p><img src="https://modmyclassic.com/wp-content/uploads/2019/12/4.png" width="50%"></p>
-<p>「Get Game Information」をクリックするとROMファイルのハッシュ値やファイルネームなどからゲーム情報を取得します。</p>
-<p><img src="https://modmyclassic.com/wp-content/uploads/2019/12/5.png" width="50%"></p>
-<p>そして全ての項目が自動的に埋まります。このときメガドラミニにマッチするROMのリージョンを選択することもできます。 (いくつかのゲームはリージョンプロテクションがかかっているので注意してください)</p>
-<p><img src="https://modmyclassic.com/wp-content/uploads/2019/12/6.png" width="50%"></p>
-<p>「Add game」をクリックするとメインのウィンドウに戻ります。このときリストに新しく追加したゲームが青く表示されます。</p>
-<p>「Sync」をクリックするとメガドラミニと同期する (synchronisation) か確認されます。「Yes (はい)」をクリックしてしばらく待つとメガドラミニにソフトが追加されます。同期の進捗状況は右下のコーナーで確認出来ます。</p>
-<p><img src="https://modmyclassic.com/wp-content/uploads/2019/12/7.png" width="50%"></p>
-<p><img src="https://modmyclassic.com/wp-content/uploads/2019/12/8.png" width="50%"></p>
-<p>これでゲームの追加は完了です！メガドラミニの電源スイッチをOFFにしてパソコンのUSBケーブルを抜いてください。それではメガドラのゲームをエンジョイしてください！</p>
+        <p>実はメガドライブミニってハックすると遊べるソフトを入れ替えたり、エミュレータを入れたりすることができるって知ってましたか！？</p>
+        <p>ここでは遊べるソフトを追加する方法を説明します！</p>
 
-<h2>Project Lunarのバックアップ・復元</h2>
-<p>Project Lunarのバックアップや元に戻したい時は「Project Lunar: Game Backup Tool」を使ってください。使用方法は下記のリンクに記載されています。</p>
-<p><a href="https://modmyclassic.com/project-lunar-game-backup-tool/">https://modmyclassic.com/project-lunar-game-backup-tool/</a></p>
-</td>
-<td>
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=yukinoi-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B07Q95P58C&linkId=34a0c7c921b15774734ec313335ec165"></iframe>
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=yukinoi-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B07Q3RGBDF&linkId=350359d87eb90fe2324b2b88e7992f14"></iframe>
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=yukinoi-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B07Q3W8J9P&linkId=35ed663c608ecc97013c1e71af03d3ba"></iframe>
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=yukinoi-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B07Q4TJB5C&linkId=adea1014fde4d533c0813937da7d5b49"></iframe>
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=yukinoi-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B06X18ZZ4V&linkId=7a1caf6fe05e79c42f9eb4a0c1bb2aba"></iframe>
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=yukinoi-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B01MUJOA5E&linkId=5defab625bc443f76ca8fd1b9d01539b"></iframe>
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=yukinoi-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B07Q86WCF6&linkId=867016de2737fd3bd428da006cd722c3"></iframe>
-<iframe sandbox="allow-popups allow-scripts allow-modals allow-forms allow-same-origin" style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="https://rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=yukinoi-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B089DRRM84&linkId=f678fa3d8716ca623c4da7afd3663ace"></iframe>
-</td>
-</tr>
-</table>
-<hr>
-<p><a href="../index.html">&lt;&lt; レトロゲーマーの小屋トップへ戻る</a></p>
+        <h2>メガドラソフト互換性チェック</h2>
+        <p>まずは遊びたいゲームがメガドラミニに対応しているか以下の互換性リストでチェックしましょう！</p>
+        <p><a href="https://megadrive-compatibility.netlify.app/">Mega Drive / Genesis Mini 互換性リスト</a></p>
+        <p>ご所望のソフトが遊べるようでしたら準備するものについて説明します。</p>
+
+        <h2>準備するもの</h2>
+        <ul>
+          <li>メガドライブミニ本体</li>
+          <li>データ転送可能なmicroUSBケーブル (もしUSBメモリのデータを使いたい場合は<a href="https://amzn.to/3Xd5YQQ">OTGケーブル</a>)</li>
+          <li>Windows 7以降のパソコン</li>
+          <li>遊びたいメガドライブソフトのゲームデータ</li>
+        </ul>
+        <p>
+          「データ転送可能なmicroUSBケーブル」とわざわざ書いたのは、メガドライブミニ付属のmicroUSBケーブルは充電専用でデータ転送は出来ないからです。
+          持ってない方は<a href="https://amzn.to/4cM2GJT">データ転送可能なmicroUSBケーブル</a>を購入してください！
+        </p>
+
+        <h2>改造ソフト</h2>
+        <a>
+          <li><a href="https://github.com/TeamShinkansen/Hakchi3-CE/releases">Hakchi2 CE</a></li>
+          <li><a href="https://modmyclassic.com/project-lunar/">Project Lunar</a></li>
+          </ul>
+          <p>ハックするにはHakchi2 CEや、Project Lunarというアプリを使います。
+            両方入れるのは不具合の原因となるので、どちらか片方だけを使います。
+            Project Lunarは開発が止まっているので、個人的にはHakchi2 CEの利用をおすすめします。</p>
+
+          <h2>Hakchi CEでのやり方</h2>
+          <p>STEP 0: <a href="https://github.com/TeamShinkansen/Hakchi3-CE/releases">Hakchi2
+              CE配布ページ</a>から最新版のzipファイルをダウンロードします。
+            そしてzipファイルを解凍して「Hakchi.exe」を実行します。</p>
+
+          <p>STEP 1: Hakchiの画面で「Sega MegaDrive (JPN)」を選択します。(日本版の場合)</p>
+          <p><img src="hakchi1.jpg" width="50%"></p>
+
+          <h3>カーネルのダンプ</h3>
+          <p>STEP 2: Hakchi上部の「Kernel」メニューから「Dump kernel（カーネルのダンプ）」をクリックします。これは安全のために元のシステム（約512MB）を保存しておく非常に重要な作業です。
+          </p>
+          <p><img src="hakchi2.jpg" width="50%"></p>
+
+          <p>STEP 2: メガドラミニをパソコンに接続</p>
+          <p>STEP 3-1: パソコンにmicroUSBケーブルを挿します。</p>
+          <p>STEP 3-2: メガドラミニにUSB電源ケーブルが挿さっていたら抜きます。</p>
+          <p><img src="ProjectLunar_tut1.png" width="50%"></p>
+          <p>STEP 3-3: メガドラミニの電源スイッチをONのところにスライドさせます。</p>
+          <p><img src="ProjectLunar_tut2.png" width="50%"></p>
+          <p>STEP 3-4: リセットボタンを押し続けます。</p>
+          <p><img src="ProjectLunar_tut3.png" width="50%"></p>
+          <p>STEP 3-5: そのままリセットボタンを押しながらパソコンに繋げたmicroUSBケーブルをメガドライブミニに繋げます。</p>
+          <p><img src="ProjectLunar_tut4.png" width="50%"></p>
+          <p>STEP 3-6: LEDが点滅したらリセットボタンを離して大丈夫です。</p>
+          <p><img src="ProjectLunar_tut5.png" width="50%"></p>
+          <p>STEP 3-7: Hakchiが"Online"になったら成功です。</p>
+          <p><img src="hakchi3.jpg" width="50%"></p>
+          <h3>カスタムカーネルのインストール</h3>
+          <p>STEP 4: 上部の「Kernel」メニューから「Install / repair」をクリックしてカスタムカーネルをインストールします。</p>
+          <p><img src="hakchi4.jpg" width="50%"></p>
+          <p><img src="hakchi5.jpg" width="50%"></p>
+          <p><img src="hakchi6.jpg" width="50%"></p>
+          <h3>STEP 5: ゲームの追加</h3>
+          <p>Hakchiの画面左下の"Add more games"ボタンをクリックして、追加したいゲームのファイルを選択。</p>
+          <p><img src="Hak-Add-Games_2.png"></p>
+          <p><img src="Hak-Add-Games_3.png"></p>
+          <p>STEP 6: パソコンとメガドラミニの同期</p>
+          <p>Hakchiの画面右下の"Synchronize selected games with mini"ボタンをクリックすると、パソコンからメガドラミニに追加したいゲームがコピーされる。</p>
+          <p><img src="Hak-Add-Games_4.png"></p>
+
+          <h2>Project Lunarでのやり方</h2>
+          <p>ここからは、Hakchi2を使わないでProject Lunarでやる手順を紹介します。</p>
+          <h3>Project Lunarのインストール</h3>
+          <p>STEP 0: <a href="https://github.com/Project-Lunar/Project-Lunar-Issue-Tracker/releases/">Project
+              Lunar配布ページ</a>に行って最新版の「ProjectLunar-x64.zip」をダウンロードします。
+            そしてzipファイルを解凍して「ProjectLunar.exe」を実行します。
+          </p>
+          <p><img src="ProjectLunar_tut1.png" width="50%"></p>
+          <p>STEP 1: 続いてメガドラミニの操作です。まずUSB電源ケーブルを抜きます。</p>
+          <p><img src="ProjectLunar_tut2.png" width="50%"></p>
+          <p>STEP2: 電源スイッチをONのところにスライドさせます。</p>
+          <p><img src="ProjectLunar_tut3.png" width="50%"></p>
+          <p>STEP3: リセットボタンを押し続けます。</p>
+          <p><img src="ProjectLunar_tut4.png" width="50%"></p>
+          <p>STEP4: そのままリセットボタンを押しながらパソコンに繋げたmicroUSBケーブルをメガドライブミニに繋げます。</p>
+          <p><img src="ProjectLunar_tut5.png" width="50%"></p>
+          <p>STEP5: LEDが点滅したらリセットボタンを離して大丈夫です。</p>
+          <p>STEP6: インストールが始まってインストール画面が表示されます。インストールが完了するまで10分くらいかかります。</p>
+
+          <h3>Project Lunarの使い方</h3>
+          <p>パソコンとメガドラミニをmicroUSBケーブルで繋ぎます。</p>
+          <p><img src="1.png" width="50%"></p>
+          <p>パソコンの「Project Lunar.exe」を起動して「Open Game Manager」をクリックします。</p>
+          <p>数秒待つとパソコンがメガドラミニを認識します。</p>
+          <p><img src="2.png" width="50%"></p>
+          <p>新しいゲームを入れるには「Add new game」をクリックします。そして追加したいゲームのROMファイル (拡張子が".bin", ".gen", ".md"のもの) を選択します。</p>
+          <p><img src="3.png" width="50%"></p>
+          <p>選択すると追加するゲームのウィンドウが出ます。</p>
+          <p><img src="4.png" width="50%"></p>
+          <p>「Get Game
+            Information」をクリックするとROMファイルのハッシュ値やファイルネームなどからゲーム情報を取得します。そして全ての項目が自動的に埋まります。このときメガドラミニにマッチするROMのリージョンを選択することもできます。
+            (いくつかのゲームはリージョンプロテクションがかかっているので注意してください)</p>
+          <p><img src="6.png" width="50%"></p>
+          <p>「Add game」をクリックするとメインのウィンドウに戻ります。このときリストに新しく追加したゲームが青く表示されます。</p>
+          <p>「Sync」をクリックするとメガドラミニと同期 (synchronisation) するか確認されます。「Yes
+            (はい)」をクリックしてしばらく待つとメガドラミニにソフトが追加されます。同期の進捗状況は右下のコーナーで確認出来ます。</p>
+          <p><img src="7.png" width="50%"></p>
+          <p><img src="8.png" width="50%"></p>
+          <p>これでゲームの追加は完了です！メガドラミニの電源スイッチをOFFにしてパソコンのUSBケーブルを抜いてください。それではメガドラのゲームをエンジョイしてください！</p>
+
+          <h3>Project Lunarのバックアップ・復元</h3>
+          <p>Project Lunarのバックアップや元に戻したい時は「Project Lunar: Game Backup Tool」を使ってください。使用方法は下記のリンクに記載されています。</p>
+          <p><a
+              href="https://modmyclassic.com/project-lunar-game-backup-tool/">https://modmyclassic.com/project-lunar-game-backup-tool/</a>
+          </p>
+      </td>
+
+      <td class="amazon">
+        <h2>Amazon 購入リンク</h2>
+        <p><a href="https://amzn.to/4e6Rdpv"><img src="https://c.media-amazon.com/images/I/61lZBN6XWmL._AC_SX679_.jpg"
+              width="30%">メガドライブミニ</a></p>
+        <p><a href="https://amzn.to/4e2Eggc"><img src="https://c.media-amazon.com/images/I/61bR2geSMKL._AC_SX679_.jpg"
+              width="30%">メガドライブミニW</a></p>
+        <p><a href="https://amzn.to/4cM2GJT"><img src="https://c.media-amazon.com/images/I/71sbfny6CiL._AC_SY879_.jpg"
+              width="30%">UGREEN Micro USBケーブル 高速データ転送 1m</a></p>
+        <p><a href="https://amzn.to/3AXgVyd"><img src="https://c.media-amazon.com/images/I/71cd+PYIrqL._AC_SX679_.jpg"
+              width="30%">Amazonベーシック HDMI ケーブル ハイスピード 4K ARC対応 1.8m</a></p>
+        <p><a href="https://amzn.to/3XvIFlx"><img src="https://c.media-amazon.com/images/I/71Ena9idWkL._AC_SX679_.jpg"
+              width="30%">Retro-Bit 公式セガジェネシス USBコントローラー</a></p>
+        <p><a href="https://amzn.to/3z6gZeB"><img src="https://c.media-amazon.com/images/I/51jqoK+wMgL._AC_SX679_.jpg"
+              width="30%">(MDミニ用)収納ケース(ブラック)</a></p>
+        <p><a href="https://amzn.to/3TbIR7O"><img src="https://c.media-amazon.com/images/I/615cvK4AWQL._AC_SX679_.jpg"
+              width="30%">(MDミニ用)収納ボックスミニ</a></p>
+        <p><a href="https://amzn.to/479ZhDA"><img src="https://c.media-amazon.com/images/I/61q+YT-pN0L._AC_SX679_.jpg"
+              width="30%">メガドラタワーミニZERO</a></p>
+        <p><a href="https://amzn.to/3TdpRG4"><img src="https://c.media-amazon.com/images/I/51Nb1ZsuP-L._AC_SX679_.jpg"
+              width="30%">メガドラタワー ミニ</a></p>
+
+      </td>
+    </tr>
+  </table>
+  <hr>
+  <p><a href="../index.html">&lt;&lt; レトロゲーマーの小屋トップへ戻る</a></p>
