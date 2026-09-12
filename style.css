@@ -37,7 +37,20 @@ hr{
 tr{
   vertical-align: top;
 }
+
 .left{
   float: left;
   width: 60%;
+}
+
+.two-cols td {
+  padding: 0 1%;
+}
+
+.amazon {
+  width: 25%;
+}
+
+.amazon p {
+  font-size: 0.8em;
 }
