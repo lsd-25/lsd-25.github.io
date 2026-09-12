@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="../style.css" type="text/css">
+    <title>PS Classic魔改造 - レトロゲーマーの小屋</title>
+    <style>
+        td {
+            padding: 0 1%;
+        }
+
+        .amazon {
+            width: 25%;
+        }
+
+        .amazon p {
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>PlayStation Classic 魔改造の部屋</h1>
+    <table>
+        <tr>
+            <td>
+                <h2>このページについて</h2>
+                <p>2018年に発売されたPlayStation Classic (プレイステーションクラシック) (通称プレステミニ; PSミニ; PSクラシック) にゲームを追加する方法を紹介します。</p>
+
+                <h2>準備するもの</h2>
+                <ul>
+                    <li>PS Classic本体</li>
+                    <li>データ転送可能なmicroUSBケーブル</li>
+                    <li>USBメモリ</li>
+                    <li>Windows 10以降のパソコン</li>
+                    <li>遊びたいゲームのデータ</li>
+                </ul>
+                <p>
+                    「データ転送可能なmicroUSBケーブル」とわざわざ書いたのは、PSミニ付属のmicroUSBケーブルは充電専用のケーブルのためデータ転送が出来ないからです。
+                    持ってない方は<a href="https://amzn.to/4cM2GJT">データ転送可能なmicroUSBケーブル</a>を用意してください。
+                </p>
+                <p>また、USBメモリには相性があるようです。
+                    私は、<a href="https://link.amazon/B07C7oe4u">SanDisk 64GB Cruzer Blade USB Flash Drive</a>でうまくいきました。
+                </p>
+
+                <h2>AutoBleemのダウンロード</h2>
+                <p>
+                    このページではPSミニでAutoBleemというソフトを使う方法を紹介します。
+                    AutoBleemをダウンロードしましょう。
+                    2026年9月12日時点でのAutoBleemの最新版は、1.0.3です。
+                </p>
+                <ul>
+                    <li><a href="https://drive.google.com/drive/folders/1mOfZI0SS2S_2E1KKukt6bTFjmI6Ye6RW">AutoBleem
+                            1.0.3
+                            ダウンロードリンク</a></li>
+                    <li><a href="https://drive.google.com/drive/folders/1DgBw6lgvpM8GbONQ-svqF7BL9tVUo70F">AutoBleem
+                            1.0.0
+                            ダウンロードリンク</a></li>
+                </ul>
+                <h2>USBメモリの準備</h2>
+                <h3>USBメモリをFAT32にフォーマット</h3>
+                <p>
+                    WindowsパソコンにUSBメモリを挿して、FAT32にフォーマットします。
+                    最近のWindowsは標準でFAT32にフォーマット出来ないことが多いので、<a href="https://www.iodata.jp/lib/software/i/1498.htm">I-O
+                        DATA ハードディスクフォーマッタ</a>等のソフトを使ってフォーマットします。
+                </p>
+                <h3>USBメモリの名前をSONYにする</h3>
+                <p>Windowsのエクスプローラーで、先ほどFAT32にフォーマットしたUSBメモリの名前をSONYにします。
+                    右クリックでプロパティから名前を変えることが出来ます。
+                </p>
+                <h2>AutoBleemをUSBメモリにコピー</h2>
+                <p>ダウンロードしたAutoBleemの圧縮ファイルを解凍して、先ほどのUSBメモリのルートにそのままコピーします。
+                    ファイル数や容量が大きいのでコピー完了まで時間がかかります。
+                </p>
+                <h2>PS ClassicでAutoBleemの起動確認</h2>
+                <p>電源がOFF状態のプレステミニの2コンのポートにUSBメモリを挿して、電源を入れます。
+                    そしてAutoBleemの画面が出れば、これまでの作業が成功していることを確認出来ます。
+                </p>
+                <h2>ゲームの追加方法</h2>
+                <p><a href="https://github.com/pascl/pbPSCReAlpha">pbPSCReAlpha</a>というソフトを使ってゲームを追加する方法を紹介します。
+                    pbPSCReAlphaはゲームのジャケット画像の取得やゲームの販売元などの情報の取得を容易にしてくれるのでゲームの追加が楽になります。</p>
+                <p><a href="https://github.com/pascl/pbPSCReAlpha/releases">pbPSCReAlphaのダウンロード</a></p>
+                <h3>pbPSCReAlphaでのゲーム追加方法</h3>
+                <ol>
+                    <li>USBメモリのゲーム配置パスの指定 (右上の"📁Browse"ボタンをクリックしてUSBメモリのGamesフォルダを選択)</li>
+                    <li>画面左上の"📁New"ボタンをクリック</li>
+                    <li>画面中央下の"Edit Game.ini + picture"ボタンをクリック</li>
+                    <li>新たに開いた画面で、画面左下の"Search"の入力欄にゲーム名 (英語) を入力して、”Search”ボタンをクリック</li>
+                    <li>下に出てきた候補から正しいものをダブルクリック</li>
+                    <li>画面右に出てきたゲームのパッケージ画像を画面左のPictureのところにドラッグ&amp;ドロップして、Pictureのところの"Save as"ボタンをクリックして画像をファイルに保存
+                    </li>
+                    <li>画面中央の青い左矢印 (←) をクリックすると"Publisher"や"Developer", "Players", "Year"の項目が埋まるので、Game.iniのところの"Save
+                        as"ボタンをクリックしてGame.iniファイルを作成</li>
+                    <li>画面下の"Back"ボタンをクリック</li>
+                    <li>画面中央下の"Add files"ボタンをクリックして、そこに追加したいゲームのファイルを選択</li>
+                    <li>画面下の"Auto-Rename"で選択出来るものをクリック</li>
+                    <li>(もし必要があれば"Edit cue file(s)"ボタンでcueファイルを編集)</li>
+                    <li>画面左下の"Recreate DataBase"ボタンをクリックして、右下の"Generate"ボタンをクリック</li>
+                </ol>
+            </td>
+
+            <td class="amazon">
+                <h2>Amazon 購入リンク</h2>
+                <p><a href="https://link.amazon/B0aqZSC8w"><img
+                            src="https://c.media-amazon.com/images/I/610YSsuqHWL._AC_SL1500_.jpg" width="20%">プレイステーション
+                        クラシック</a></p>
+                <p><a href="https://link.amazon/B07C7oe4u"><img
+                            src="https://m.media-amazon.com/images/W/BW_MEDIAX_AVIF_MEASUREMENT_1306696-T4/images/I/61ERDR3tATL._AC_SL1400_.jpg"
+                            width="20%">SanDisk 64GB Cruzer Blade USB Flash Drive</a></p>
+                <p><a href=" https://amzn.to/4cM2GJT"><img
+                            src="https://c.media-amazon.com/images/I/71sbfny6CiL._AC_SY879_.jpg" width="20%">UGREEN
+                        Micro USBケーブル 高速データ転送 1m</a></p>
+                <p><a href="https://amzn.to/3AXgVyd"><img
+                            src="https://c.media-amazon.com/images/I/71cd+PYIrqL._AC_SX679_.jpg" width="20%">Amazonベーシック
+                        HDMI ケーブル ハイスピード 4K ARC対応 1.8m</a></p>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <p><a href="../index.html">&lt;&lt; レトロゲーマーの小屋トップへ戻る</a></p>
