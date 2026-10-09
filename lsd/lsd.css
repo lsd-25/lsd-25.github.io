@@ -105,15 +105,20 @@ ul.index li{
 	color: #ffffff;
 	list-style-type: none;
 	}
-li	{
+ul li	{
 	color: #ffffff;
 	list-style-position: outside;
 	list-style-image: url('torii.gif');
+	padding-left: 5px;
+	}
+ul.normal li	{
+	list-style: circle;
 	}
 ul.tyou li	{
 	color: #ffffff;
 	list-style-position: outside;
 	list-style-image: url('tyou.gif');
+	padding-left: 5px;
 	}
 
 /* 強調 */
